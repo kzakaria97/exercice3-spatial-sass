@@ -1,0 +1,24 @@
+{
+  "name": "sass-exo3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kzakaria97/exercice3-spatial-sass.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kzakaria97/exercice3-spatial-sass/issues"
+  },
+  "homepage": "https://github.com/kzakaria97/exercice3-spatial-sass#readme",
+  "dependencies": {
+    "@popperjs/core": "^2.11.5",
+    "bootstrap": "^5.1.3"
+  }
+}
