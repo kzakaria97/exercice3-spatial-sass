@@ -75,13 +75,20 @@
 @media screen and (min-width: 320px) and (max-width:767px)
     header
         .section1
-            display: flex
-            flex-direction: column
+            nav
+                display: flex
+                flex-direction: column
+                justify-content: center
+                align-items: center
+            .title1
+                button
+                    width: 7rem
     .section2
         .div-section2
-            grid-template-columns: 40% 40% 
-            margin-left: 20%
-            gap: 0px              
+            display: flex
+            flex-direction: column
+            text-align: center
+            margin: 0      
     .section3
         .div-section3
             .div-elem2
@@ -91,25 +98,66 @@
                 flex-direction: column
                 gap: 15px
             .div-elem2 img
-                width: 100%                   
+                width: 100%  
+            .div-button
+                .btn1
+                    font-size: 12px  
+                    width: 6rem
+                .btn2
+                    font-size: 12px  
+                    width: 6rem                
     .section4
         div
-            margin-left: 10%
+            margin-left: 0
+            margin-bottom: 15%
+            text-align: center
+            h2
+                font-size:30px
+            h4
+                font-size: 15px
     .section5
         .div-elem1
-            margin-left: 7%
-            display: grid
-            grid-template-columns: 20% 20% 20% 20%
-            gap: 30px
+            display: flex
+            flex-direction: column
+            justify-content: center
+            align-items: center
+            margin: 0
             .first
-                h6
-                    font-size: 15px
+                display: flex
+                flex-direction: column
+                justify-content: center
+                align-items: center
+                margin: 0
+                .para
+                    text-align: center
+                    font-size:13px
                 p
-                    font-size: 12px
-            img
-                width: 100%
+                    text-align: center
+                    font-size: 13px
             .second
-                h6
-                    font-size: 15px
+                display: flex
+                flex-direction: column
+                justify-content: center
+                align-items: center
+                margin: 0
+                .para
+                    text-align: center
+                    font-size:13px
                 p
-                    font-size: 12px  
+                    text-align: center
+                    font-size: 13px
+    .section6
+        div
+            h2
+                font-size: 26px
+            p
+                font-size: 15px
+            button
+                font-size: 12px 
+                width: 6rem
+                height: 2rem
+    footer
+        margin-top: 5%
+        .div-foot
+            p
+                font-size: 10px
