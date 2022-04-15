@@ -45,6 +45,7 @@ header .section1 .title1 button {
   width: 7%;
   height: 2rem;
   border-radius: 10%;
+  border: none;
 }
 
 * {
@@ -142,12 +143,14 @@ footer div:nth-child(2) p:nth-child(2) {
   width: 9rem;
   height: 3rem;
   border-radius: 5%;
+  border: none;
 }
 .section3 .div-section3 .div-button .btn2 {
   background-color: rgb(50, 48, 55);
   color: white;
   width: 9rem;
   border-radius: 5%;
+  border: none;
 }
 
 .section4 {
@@ -246,6 +249,7 @@ footer div:nth-child(2) p:nth-child(2) {
   height: 3rem;
   margin: 2%;
   border-radius: 9%;
+  border: none;
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1440px) {
@@ -348,7 +352,20 @@ footer div:nth-child(2) p:nth-child(2) {
     text-align: center;
     margin: 0;
   }
+  .section2 .div-section2 .div-elem1 h2, .section2 .div-section2 .div-elem1 .h2 {
+    font-size: 25px;
+  }
+  .section2 .div-section2 .div-elem1 p {
+    font-size: 12px;
+  }
+  .section2 .div-section2 .div-elem2 {
+    font-size: 13px;
+    padding: 5%;
+  }
 
+  .section3 .div-section3 .div-elem1 h2, .section3 .div-section3 .div-elem1 .h2 {
+    font-size: 25px;
+  }
   .section3 .div-section3 .div-elem2 {
     margin-left: 5%;
     margin-right: 5%;
@@ -386,6 +403,15 @@ footer div:nth-child(2) p:nth-child(2) {
     justify-content: center;
     align-items: center;
     margin: 0;
+  }
+  .section5 .div-elem1 img {
+    margin-bottom: 5%;
+  }
+  .section5 .div-elem1 .img5 {
+    order: 4;
+  }
+  .section5 .div-elem1 .img7 {
+    order: 8;
   }
   .section5 .div-elem1 .first {
     display: flex;
